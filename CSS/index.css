@@ -1,0 +1,94 @@
+*{margin: 0;padding: 0}
+ul,li{list-style: none;}
+body{color: #333;}
+
+/*************searchPart*****************/
+.search{
+   width: 80%;
+   height: 200px;
+   background: #333;
+   margin-bottom: 5px;
+}
+
+
+
+
+/******************list part**************************/
+.listBox{
+   width: 80%;
+   height: auto;
+   border: 2px solid #aaa;
+   box-sizing: border-box;
+   padding: 10px;
+   background: #FDF6E3;
+}
+
+.list{
+  margin: 5px 5px;
+  border-bottom: 1px solid #666;
+}
+
+.list:hover{
+  background-color: #999;
+}
+.title{
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+.title:hover{
+  text-decoration: underline;
+}
+.author{
+  color: #aaa;
+  margin-bottom: 10px;
+  text-align: right;
+
+}
+
+.content{
+  word-break: break-all;
+  width: 100%;
+  text-indent: 2em;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.operth{
+  margin-bottom: 5px;
+  width: 100%;
+  text-align: right;
+}
+
+/********************content part**********************/
+.newTitle{
+   text-align: center;
+}
+
+.newAuthor{
+  text-align: right;
+  color: #aaa;
+  margin-bottom: 10px;
+}
+
+.newContent{
+   text-indent: 2em;
+   line-height: 30px;
+}
+.newButton{
+  text-align: right;
+}
+
+
+/***********************pinlun part*******************************/
+
+.textarea{
+  vertical-align: text-top;
+}
+.border{
+  border-bottom: 1px dashed #d3d3d3;
+  padding: 20px 10px;
+  box-sizing: border-box;
+}
+.person{
+  margin-bottom: 20px;
+}
